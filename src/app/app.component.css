@@ -1,0 +1,47 @@
+div {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.btn-small {
+  border: none;
+  height: 40px;
+  width: 50px;
+  color: white;
+  font-size: 15px;
+  background-color: hotpink;
+  margin-bottom: 50px;
+}
+
+.btn-normal {
+  background-color: dodgerblue;
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.btn-danger {
+  background-color: red;
+}
